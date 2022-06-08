@@ -3,6 +3,6 @@ The scripts provided here allow you to execute simple tasks for a Confluent Plat
 
 
 E.g.
-./cp-cluster-action.sh <cp-ansible host inventory file> <start / stop / restart>
+./cp-cluster-action.sh \<cp-ansible host inventory fil\e> \<start / stop / restart\>
   
-./cp-cluster-action.sh <cp-ansible host inventory file>
+./cp-cluster-action.sh \<cp-ansible host inventory file\>
