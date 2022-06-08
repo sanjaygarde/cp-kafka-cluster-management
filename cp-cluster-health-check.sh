@@ -16,6 +16,9 @@ then
 	exit 1
 fi
 
+
+# TODO: Automate and parameterize the commands below
+
 ansible -m shell -b -i $1 -a 'ps -ef | grep zoo' zookeeper
 ansible -m shell -b -i $1 -a 'netstat -ln | grep 2181' zookeeper
 
